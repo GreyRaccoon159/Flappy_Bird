@@ -1,0 +1,90 @@
+11:21:53 **** Incremental Build of configuration Debug for project LB11 ****
+make -j6 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:199:3: warning: implicit declaration of function 'disp1color_UpdateFromBuff' [-Wimplicit-function-declaration]
+  199 |   disp1color_UpdateFromBuff(); //Перевод рассчитанных данных в массив
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:200:3: warning: implicit declaration of function 'prepare_data' [-Wimplicit-function-declaration]
+  200 |   prepare_data(); //Разбиение массива на массивы под каждую строку
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'disp_row':
+../Core/Src/main.c:281:34: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  281 |         HAL_SPI_Transmit(&hspi2, &data1, 16, 10);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:293:34: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  293 |         HAL_SPI_Transmit(&hspi2, &data2, 16, 10);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:306:34: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  306 |         HAL_SPI_Transmit(&hspi2, &data3, 16, 10);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:319:34: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  319 |         HAL_SPI_Transmit(&hspi2, &data4, 16, 10);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:403,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'draw_game':
+../Core/Src/main.c:335:2: warning: implicit declaration of function 'disp1color_FillScreenbuff' [-Wimplicit-function-declaration]
+  335 |  disp1color_FillScreenbuff(0); //очищение экрана перед выводом новых фигур
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:337:2: warning: implicit declaration of function 'disp1color_DrawLine' [-Wimplicit-function-declaration]
+  337 |  disp1color_DrawLine((int) xm1, (int) ym1, (int) xm1 + 1, (int) ym1); //отрисовка снарядов нашего корабля
+      |  ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:340:2: warning: implicit declaration of function 'disp1color_DrawPixel' [-Wimplicit-function-declaration]
+  340 |  disp1color_DrawPixel(xem1, yem1, 1); //отрисовка вражеских снарядов
+      |  ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:343:2: warning: implicit declaration of function 'disp1color_DrawRectangle' [-Wimplicit-function-declaration]
+  343 |  disp1color_DrawRectangle(xe, ye, xe + 2, ye + 2); //отрисовка вражеского прямоугольника
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'game_over':
+../Core/Src/main.c:354:2: warning: implicit declaration of function 'disp1color_DrawString' [-Wimplicit-function-declaration]
+  354 |  disp1color_DrawString(7, 0, FONTID_6X8M, pMyStr);
+      |  ^~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "LB11.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\User\Desktop\stm32lb5\LB11\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LB11.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LB11.elf
+ 
+arm-none-eabi-size   LB11.elf 
+arm-none-eabi-objdump -h -S  LB11.elf  > "LB11.list"
+   text	   data	    bss	    dec	    hex	filename
+  30620	    144	   2040	  32804	   8024	LB11.elf
+Finished building: default.size.stdout
+ 
+Finished building: LB11.list
+ 
+
+11:21:55 Build Finished. 0 errors, 11 warnings. (took 2s.47ms)
+

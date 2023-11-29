@@ -1,0 +1,819 @@
+2023-09-15 15:50:56,765 [INFO] Activator:179 - 
+
+
+2023-09-15 15:50:56,767 [INFO] Activator:180 - !SESSION log4j initialized
+2023-09-15 15:51:32,465 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-09-15 15:51:32,468 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-09-15 15:51:32,470 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-09-15 15:56:35,651 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-09-15 15:56:41,089 [INFO] ApplicationProperties:181 - Using Application install path: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-09-15 15:56:41,121 [INFO] DbMcusXml:77 - Set database path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-09-15 15:56:41,123 [INFO] ApiDb:273 - Set plugin database path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-09-15 15:56:41,127 [WARN] ApiDb:258 - Overriding images path with different value:  => D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-09-15 15:56:41,151 [INFO] ApiDb:249 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-15 15:56:41,154 [INFO] DbMcusAds:124 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-15 15:56:41,165 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-09-15 15:56:41,336 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-09-15 15:56:41,520 [INFO] DbMcusXml:77 - Set database path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-09-15 15:56:41,521 [INFO] ApiDb:273 - Set plugin database path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-09-15 15:56:41,522 [INFO] ApiDb:260 - Set plugin images path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-09-15 15:56:41,522 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,522 [INFO] ApiDb:249 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-15 15:56:41,523 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,523 [INFO] DbMcusAds:124 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-15 15:56:41,524 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,525 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,525 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-09-15 15:56:41,709 [INFO] MainPanel:252 - HeapMemory: 485490688
+2023-09-15 15:56:41,881 [INFO] DbMcusXml:77 - Set database path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-09-15 15:56:41,882 [INFO] ApiDb:273 - Set plugin database path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-09-15 15:56:41,883 [INFO] ApiDb:260 - Set plugin images path to: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-09-15 15:56:41,884 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,885 [INFO] ApiDb:249 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-15 15:56:41,885 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,885 [INFO] DbMcusAds:124 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-15 15:56:41,885 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,886 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2023-09-15 15:56:41,886 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-09-15 15:56:41,927 [INFO] ApplicationProperties:181 - Using Application install path: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-09-15 15:56:41,931 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-09-15 15:56:41,935 [INFO] PluginManage:307 - Check plugin analytics
+2023-09-15 15:56:42,241 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: STM32CubeMX.6.8.0
+2023-09-15 15:56:42,243 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-09-15 15:56:42,243 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: FW.F4.1.27.0
+2023-09-15 15:56:42,256 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-09-15 15:56:42,257 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-09-15 15:56:42,266 [INFO] CADModel:104 - Init CAD model plugin
+2023-09-15 15:56:42,267 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-09-15 15:56:42,267 [INFO] PluginManage:307 - Check plugin clock
+2023-09-15 15:56:42,287 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-09-15 15:56:42,288 [INFO] PluginManage:307 - Check plugin ddr
+2023-09-15 15:56:42,293 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-09-15 15:56:42,294 [INFO] PluginManage:307 - Check plugin filemanager
+2023-09-15 15:56:42,538 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-09-15 15:56:42,539 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-09-15 15:56:42,553 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-09-15 15:56:42,554 [INFO] PluginManage:307 - Check plugin lpbam
+2023-09-15 15:56:42,599 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-09-15 15:56:42,600 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-09-15 15:56:42,614 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-09-15 15:56:42,614 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-09-15 15:56:42,686 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-09-15 15:56:42,687 [INFO] PluginManage:307 - Check plugin power
+2023-09-15 15:56:42,709 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-09-15 15:56:42,710 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-09-15 15:56:42,748 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-09-15 15:56:42,749 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-09-15 15:56:42,940 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-09-15 15:56:42,941 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-09-15 15:56:42,941 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-09-15 15:56:42,941 [INFO] PluginManage:307 - Check plugin tools
+2023-09-15 15:56:42,947 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-09-15 15:56:42,947 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-09-15 15:56:42,948 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-09-15 15:56:43,337 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-09-15 15:56:43,338 [INFO] PluginManage:307 - Check plugin updater
+2023-09-15 15:56:43,390 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-09-15 15:56:43,391 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-09-15 15:56:43,869 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-09-15 15:56:43,983 [INFO] CADModel:164 - CPN selected for project level
+2023-09-15 15:56:43,983 [INFO] CADModel:113 - Register for checkConnection events
+2023-09-15 15:56:44,010 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,011 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-09-15 15:56:44,015 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,015 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-09-15 15:56:44,020 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,020 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-09-15 15:56:44,023 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,023 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-09-15 15:56:44,027 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,028 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-09-15 15:56:44,031 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,032 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-09-15 15:56:44,041 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,042 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-09-15 15:56:44,045 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,046 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-09-15 15:56:44,048 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,049 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-09-15 15:56:44,056 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,056 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-09-15 15:56:44,064 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,064 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-09-15 15:56:44,067 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,067 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-09-15 15:56:44,070 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,071 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-09-15 15:56:44,079 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,079 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-09-15 15:56:44,086 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,087 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-09-15 15:56:44,091 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,092 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-09-15 15:56:44,096 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,097 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-09-15 15:56:44,101 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,101 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-09-15 15:56:44,106 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,106 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-09-15 15:56:44,112 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,112 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-09-15 15:56:44,122 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,123 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-09-15 15:56:44,127 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,127 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-09-15 15:56:44,130 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,130 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-09-15 15:56:44,140 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,140 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-09-15 15:56:44,147 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,147 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-09-15 15:56:44,153 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,153 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-09-15 15:56:44,158 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,158 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-09-15 15:56:44,165 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,165 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-09-15 15:56:44,175 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,179 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-09-15 15:56:44,182 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,182 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-09-15 15:56:44,200 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,200 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-09-15 15:56:44,205 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,205 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-09-15 15:56:44,208 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,209 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-09-15 15:56:44,216 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,217 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-09-15 15:56:44,219 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,220 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-09-15 15:56:44,225 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,225 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-09-15 15:56:44,229 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,229 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-09-15 15:56:44,233 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,233 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-09-15 15:56:44,236 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,236 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-09-15 15:56:44,239 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,240 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-09-15 15:56:44,244 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,244 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-09-15 15:56:44,249 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:56:44,249 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-09-15 15:56:44,409 [INFO] CADModel:164 - CPN selected for project level
+2023-09-15 15:56:44,410 [INFO] CADModel:113 - Register for checkConnection events
+2023-09-15 15:56:44,410 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:44,410 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-09-15 15:56:44,649 [INFO] CADModel:164 - CPN selected for project level
+2023-09-15 15:56:44,649 [INFO] CADModel:113 - Register for checkConnection events
+2023-09-15 15:56:44,649 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:44,649 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-09-15 15:56:44,654 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:44,848 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:44,858 [INFO] DbMcusAds:52 - JSON generation date=Tue Mar 07 15:50:55 GMT+07:00 2023 (1678179055335)
+2023-09-15 15:56:44,858 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:44,912 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-09-15 15:56:45,141 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:45,145 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:45,145 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:45,145 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-09-15 15:56:45,147 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-09-15 15:56:45,223 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-09-15 15:56:45,226 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-09-15 15:56:45,252 [INFO] ApplicationProperties:181 - Using Application install path: D:\STM32CubeIDE_1.11.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-09-15 15:56:45,295 [INFO] MainUpdater:518 - Copy updater definitions from MX database
+2023-09-15 15:56:45,961 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-09-15 15:56:46,191 [INFO] MainUpdater:2800 - connection check result : 10
+2023-09-15 15:56:46,192 [INFO] MainUpdater:3494 - Updater definition file requires update
+2023-09-15 15:56:46,194 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-09-15 15:56:46,195 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-09-15 15:56:46,452 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2023-09-15 15:56:47,175 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2023-09-15 15:56:47,176 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-09-15 15:56:47,913 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2023-09-15 15:56:48,196 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2023-09-15 15:56:48,337 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-09-15 15:56:48,518 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-09-15 15:56:48,698 [INFO] MainUpdater:2800 - connection check result : 10
+2023-09-15 15:56:48,700 [INFO] MainUpdater:2800 - connection check result : 10
+2023-09-15 15:56:48,804 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-09-15 15:56:48,806 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-09-15 15:56:48,806 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-09-15 15:56:49,208 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-09-15 15:56:49,255 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-09-15 15:56:49,269 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: GROUP='STM32_MetaDataManager' CLASS='Data Exchange'
+2023-09-15 15:56:49,270 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-09-15 15:56:49,272 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.0
+2023-09-15 15:56:49,283 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.2
+2023-09-15 15:56:49,291 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.0
+2023-09-15 15:56:49,296 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-09-15 15:56:49,297 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-09-15 15:56:49,299 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.1
+2023-09-15 15:56:49,307 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.1
+2023-09-15 15:56:49,317 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-09-15 15:56:49,323 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.2
+2023-09-15 15:56:49,333 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-09-15 15:56:49,346 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.7.0.0
+2023-09-15 15:56:49,354 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.0
+2023-09-15 15:56:49,360 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-SMARTAG2.1.2.0
+2023-09-15 15:56:49,374 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-09-15 15:56:49,375 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-09-15 15:56:49,377 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-09-15 15:56:49,378 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-09-15 15:56:49,380 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-09-15 15:56:49,384 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.2.0.0
+2023-09-15 15:56:49,396 [WARN] PackLoader:242 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-09-15 15:56:49,403 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-09-15 15:56:49,408 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.4
+2023-09-15 15:56:49,416 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-09-15 15:56:49,438 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-09-15 15:56:49,448 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-09-15 15:56:49,455 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-09-15 15:56:49,494 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-09-15 15:56:49,548 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-09-15 15:56:49,570 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-09-15 15:56:49,580 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.6.0
+2023-09-15 15:56:49,601 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.2.0.0
+2023-09-15 15:56:49,652 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2023-09-15 15:56:49,846 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-09-15 15:56:49,860 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-09-15 15:56:49,882 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,882 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,886 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-09-15 15:56:49,887 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,887 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,888 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,888 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,888 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:49,897 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.1
+2023-09-15 15:56:49,903 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-09-15 15:56:49,940 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC6.3.0.0
+2023-09-15 15:56:49,950 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-09-15 15:56:49,957 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.1.0
+2023-09-15 15:56:49,980 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-09-15 15:56:49,981 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.2.0.0
+2023-09-15 15:56:49,982 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-09-15 15:56:49,982 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-09-15 15:56:49,983 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-09-15 15:56:49,991 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-09-15 15:56:49,998 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-09-15 15:56:50,013 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,013 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,015 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.2.0.0
+2023-09-15 15:56:50,016 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,016 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,017 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,017 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,017 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-09-15 15:56:50,023 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-09-15 15:56:50,038 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-09-15 15:56:50,044 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.1
+2023-09-15 15:56:50,055 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-09-15 15:56:50,070 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.1
+2023-09-15 15:56:50,097 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2023-09-15 15:56:50,108 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-09-15 15:56:50,136 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-09-15 15:56:50,143 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.1.0
+2023-09-15 15:56:50,154 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-09-15 15:56:50,162 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-09-15 15:56:50,168 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-09-15 15:56:50,183 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-09-15 15:56:50,189 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-09-15 15:56:50,190 [INFO] ThirdParty:947 - Integrity check success = true
+2023-09-15 15:56:50,190 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-09-15 15:56:50,190 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-09-15 15:56:50,190 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-09-15 15:56:50,192 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-09-15 15:56:50,196 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-09-15 15:56:50,203 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 612733960 Bytes (845152256)
+2023-09-15 15:56:57,234 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-09-15 15:56:57,235 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-09-15 15:56:57,235 [INFO] OpenFileManager:307 - Change cursor
+2023-09-15 15:56:57,306 [INFO] Mcu:1925 - Initializing MCU STM32F411V(C-E)Tx STM32F411VETx 
+2023-09-15 15:56:57,477 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (C:\Users\User\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2023-09-15 15:56:57,601 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-09-15 15:56:57,602 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.37
+2023-09-15 15:56:57,602 [INFO] ApiDb:669 - CubeFinder database generation date=2023-08-31 (1693470701)
+2023-09-15 15:56:57,602 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V2.0.0, FP-SNS-FLIGHT1_V5.0.1, FP-SNS-FLIGHT1_V5.0.2, FP-SNS-MOTENV1_V4.3.1, FP-SNS-MOTENV1_V4.3.2, STM32Cube_FW_C0_V1.1.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.1.1, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.3.0, STM32Cube_FW_U5_V1.3.0RC4, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.1.0, STM32Cube_FW_WBA_V1.1.0RC1, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WB_V1.17.0, STM32Cube_FW_WB_V1.17.2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V2.0.0, X-CUBE-AZRTOS-H7_V3.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L4_V2.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V2.0.0, X-CUBE-AZRTOS-WL_V2.0.0, X-CUBE-BLE1_V7.0.0, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V2.0.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-FREERTOS_V1.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.6.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0, X-CUBE-TOF1_V3.3.1]
+2023-09-15 15:57:01,496 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-09-15 15:57:01,501 [INFO] DbMcus:215 - Found 3806 MCUs, 3806 are supported
+2023-09-15 15:57:01,502 [INFO] ApiDb:413 - User favorites file not found: C:\Users\User/.stm32cubeide/favorites.mcus.txt
+2023-09-15 15:57:01,502 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2023-09-15 15:57:01,811 [INFO] Mcu:1938 - No CPN specified => set CPN to STM32F411VET6
+2023-09-15 15:57:03,445 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2023-09-15 15:57:03,854 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB1 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB2 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB3 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB4 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2023-09-15 15:57:03,855 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2023-09-15 15:57:03,857 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule Rename SubGHz_Phy SUBGHZ_APPLICATION SUBGHZ_PINGPONG to SUBGHZ_ADV_APPLICATION is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule GTZC_S instance for project manager is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule GTZC_S instance for context M33S is applicable
+2023-09-15 15:57:03,858 [INFO] Rule:225 - rule GTZC_S instance value for IP GTZC is applicable
+2023-09-15 15:57:03,859 [INFO] Rule:225 - rule GTZC_S instance for mcu.IP is applicable
+2023-09-15 15:57:03,859 [INFO] Rule:225 - rule GTZC_S instance for VP is applicable
+2023-09-15 15:57:03,859 [INFO] Rule:225 - rule GTZC_S instance for signal is applicable
+2023-09-15 15:57:03,859 [INFO] Rule:225 - rule Change Default Value for LSE Drive Capability for WB family is applicable
+2023-09-15 15:57:03,859 [INFO] Rule:225 - rule Change Default Value for ADC Clock Prescaler G0 family is applicable
+2023-09-15 15:57:03,860 [INFO] Rule:225 - rule Change GPIO_Pu Default Value for I2C is applicable
+2023-09-15 15:57:03,860 [INFO] Rule:225 - rule Change GPIO_Pu Default Value for SMBus is applicable
+2023-09-15 15:57:03,860 [INFO] Rule:225 - rule change FDCAN default value is applicable
+2023-09-15 15:57:03,863 [INFO] DbConfProperties:305 - Apply Compatibility (3/48 Rules)
+2023-09-15 15:57:04,396 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-09-15 15:57:04,397 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-09-15 15:57:04,397 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-09-15 15:57:04,397 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-09-15 15:57:04,397 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-09-15 15:57:04,405 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,407 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,408 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,432 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,433 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,434 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-09-15 15:57:04,455 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,455 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,455 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,455 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,455 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,455 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,456 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,456 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,456 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,456 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,456 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,456 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-09-15 15:57:04,474 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-09-15 15:57:04,894 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-09-15 15:57:04,930 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (12500000)
+2023-09-15 15:57:05,308 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 549030072 Bytes (845152256)
+2023-09-15 15:57:05,495 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-09-15 15:57:05,495 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-09-15 15:57:05,495 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-09-15 15:57:05,495 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-09-15 15:57:05,495 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-09-15 15:57:05,495 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.1
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2023-09-15 15:57:05,496 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2023-09-15 15:57:05,497 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2023-09-15 15:57:05,498 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-09-15 15:57:05,499 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-09-15 15:57:05,500 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-09-15 15:57:05,500 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-09-15 15:57:05,500 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-09-15 15:57:05,500 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-09-15 15:57:05,938 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-09-15 15:57:05,942 [INFO] PinOutPanel:1477 - setPackage(STM32F411VETx,LQFP100)
+2023-09-15 15:57:06,434 [INFO] UtilMem:74 - Before build in PCC Used Memory: 517208064 Bytes (845152256)
+2023-09-15 15:57:07,275 [INFO] UtilMem:74 - After build in PCC Used Memory: 714340352 Bytes (845152256)
+2023-09-15 15:57:07,317 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,318 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,318 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,318 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,319 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,320 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,321 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,321 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,321 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,321 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,322 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,323 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,323 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,323 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,323 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,324 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,324 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,324 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,324 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,324 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,325 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,326 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,326 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,326 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,326 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,327 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,327 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,327 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,327 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,328 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-09-15 15:57:07,374 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
+2023-09-15 15:57:07,561 [INFO] CADModel:164 - CPN selected for project levelSTM32F411VET6
+2023-09-15 15:57:07,561 [INFO] CADModel:113 - Register for checkConnection events
+2023-09-15 15:57:07,626 [INFO] OpenFileManager:327 - Restore cursor
+2023-09-15 15:59:35,167 [INFO] Gpio:272 - dependency for GPIO [RCC, SPI1, SYS]
+2023-09-15 15:59:59,581 [INFO] Gpio:272 - dependency for GPIO [RCC, SPI1, SYS]
+2023-09-15 16:54:16,215 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-15 16:54:16,244 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-09-15 17:29:50,791 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-15 17:29:50,947 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-09-16 20:55:50,320 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-09-16 20:55:54,942 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
+2023-09-16 20:55:55,003 [INFO] WebAppUi:462 - Profiles folder deleted
+2023-09-16 20:55:55,803 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-09-27 12:45:25,964 [INFO] Activator:179 - 
+
+
+2023-09-27 12:45:25,964 [INFO] Activator:180 - !SESSION log4j initialized
+2023-09-27 12:45:26,683 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 12:45:26,823 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 12:45:31,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 12:45:31,137 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 12:45:55,095 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-09-27 12:45:55,096 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-09-27 12:45:55,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-09-27 13:02:02,285 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 13:10:02,734 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 13:10:21,056 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 13:14:50,325 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 13:14:50,340 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 13:17:26,208 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-09-27 13:17:28,526 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-09-27 13:29:04,597 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 13:29:04,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-09-27 14:11:04,063 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-09-27 14:11:05,070 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-09-27 14:11:05,414 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-10-13 16:31:04,293 [INFO] Activator:179 - 
+
+
+2023-10-13 16:31:04,294 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-13 16:31:05,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:31:05,190 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:31:31,670 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-13 16:31:31,672 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-13 16:31:31,673 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-13 16:36:10,382 [INFO] Activator:179 - 
+
+
+2023-10-13 16:36:10,383 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-13 16:36:12,825 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:36:12,846 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:36:36,281 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-13 16:36:36,282 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-13 16:36:36,283 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-13 16:39:19,484 [INFO] Activator:179 - 
+
+
+2023-10-13 16:39:19,485 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-13 16:39:20,196 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:39:20,336 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:39:24,460 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:39:24,478 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 16:39:46,741 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-13 16:39:46,742 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-13 16:39:46,743 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-13 18:27:57,237 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 18:28:16,711 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 19:28:31,950 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 19:28:31,956 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 19:35:37,608 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 19:35:37,619 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 19:45:03,027 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 19:45:03,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:03:46,292 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-10-13 20:03:48,594 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-10-13 20:04:50,675 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:04:50,690 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:04:54,174 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:04:54,194 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:05:10,753 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:05:10,772 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:05:10,834 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:05:10,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:07:54,770 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.783911130 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:07:54,791 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1351802261 uses a null category that is invalid in its context. The option was ignored.
+2023-10-13 20:42:11,042 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-10-13 20:42:12,341 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-10-13 20:42:12,842 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-10-23 13:18:54,075 [INFO] Activator:179 - 
+
+
+2023-10-23 13:18:54,076 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-23 13:18:54,831 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 13:18:54,972 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 13:19:22,348 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-23 13:19:22,349 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-23 13:19:22,350 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-23 13:22:48,231 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-10-23 13:22:50,540 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-10-23 14:19:49,709 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 14:19:49,728 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 16:14:50,512 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-10-23 16:14:51,464 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-10-23 16:14:51,919 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-10-23 18:59:13,097 [INFO] Activator:179 - 
+
+
+2023-10-23 18:59:13,099 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-23 18:59:14,457 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 18:59:14,695 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 18:59:44,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-23 18:59:44,210 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-23 18:59:44,211 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-23 21:11:53,596 [INFO] Activator:179 - 
+
+
+2023-10-23 21:11:53,598 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-23 21:11:54,459 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 21:11:54,617 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-23 21:12:21,373 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-23 21:12:21,374 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-23 21:12:21,375 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-25 12:49:53,035 [INFO] Activator:179 - 
+
+
+2023-10-25 12:49:53,035 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-25 12:49:53,847 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-25 12:49:53,988 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-25 12:50:20,483 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-25 12:50:20,483 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-25 12:50:20,483 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-25 23:01:54,206 [INFO] Activator:179 - 
+
+
+2023-10-25 23:01:54,208 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-25 23:01:54,922 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-25 23:01:55,057 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-25 23:02:22,316 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-25 23:02:22,317 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-25 23:02:22,319 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-26 16:42:28,510 [INFO] Activator:179 - 
+
+
+2023-10-26 16:42:28,512 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-26 16:42:29,335 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 16:42:29,492 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 16:42:41,191 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1172509304 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 16:42:41,228 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.96309654 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 16:43:05,877 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-26 16:43:05,879 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-26 16:43:05,880 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-26 18:25:00,573 [INFO] Activator:179 - 
+
+
+2023-10-26 18:25:00,574 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-26 18:25:01,368 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1172509304 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 18:25:01,514 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.96309654 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 18:25:28,164 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-26 18:25:28,165 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-26 18:25:28,166 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-26 18:56:44,911 [INFO] Activator:179 - 
+
+
+2023-10-26 18:56:44,911 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-26 18:56:45,647 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1172509304 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 18:56:45,787 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.96309654 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 18:57:12,457 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-26 18:57:12,457 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-26 18:57:12,457 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-26 19:04:38,494 [INFO] Activator:179 - 
+
+
+2023-10-26 19:04:38,495 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-26 19:04:39,350 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1172509304 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:04:39,508 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.96309654 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:04:45,978 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:04:46,000 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:05:09,161 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-26 19:05:09,162 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-26 19:05:09,163 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-26 19:16:14,935 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1172509304 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:16:14,949 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.96309654 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:16:59,271 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1172509304 uses a null category that is invalid in its context. The option was ignored.
+2023-10-26 19:16:59,303 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.96309654 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 14:54:22,818 [INFO] Activator:179 - 
+
+
+2023-10-27 14:54:22,821 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-27 14:54:24,510 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 14:54:24,714 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 14:54:54,111 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-27 14:54:54,114 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-27 14:54:54,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-10-27 15:09:58,653 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 15:09:58,694 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 15:20:40,564 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 15:20:40,718 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 15:34:50,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-10-27 15:34:50,642 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-10-31 13:48:35,589 [INFO] Activator:179 - 
+
+
+2023-10-31 13:48:35,591 [INFO] Activator:180 - !SESSION log4j initialized
+2023-10-31 13:48:36,570 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-10-31 13:48:36,767 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-10-31 13:49:23,036 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-10-31 13:49:23,038 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-10-31 13:49:23,041 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-08 12:38:31,237 [INFO] Activator:179 - 
+
+
+2023-11-08 12:38:31,238 [INFO] Activator:180 - !SESSION log4j initialized
+2023-11-08 12:38:32,310 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 12:38:32,531 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 12:39:01,123 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-11-08 12:39:01,128 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-11-08 12:39:01,131 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-08 12:45:04,444 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 12:45:04,516 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 12:45:06,016 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 12:45:06,055 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 20:34:44,169 [INFO] Activator:179 - 
+
+
+2023-11-08 20:34:44,172 [INFO] Activator:180 - !SESSION log4j initialized
+2023-11-08 20:34:45,072 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 20:34:45,234 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 20:34:53,870 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 20:34:53,889 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-11-08 20:35:13,593 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-11-08 20:35:13,594 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-11-08 20:35:13,595 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-08 20:37:12,137 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-11-08 20:37:14,471 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-11-08 20:51:11,676 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-11-08 20:51:12,790 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-11-08 20:51:13,781 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-11-15 11:08:44,616 [INFO] Activator:179 - 
+
+
+2023-11-15 11:08:44,616 [INFO] Activator:180 - !SESSION log4j initialized
+2023-11-15 11:08:45,399 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-11-15 11:08:45,556 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-11-15 11:08:48,260 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-11-15 11:08:48,276 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-11-15 11:09:14,756 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-11-15 11:09:14,756 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-11-15 11:09:14,756 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-20 16:51:45,744 [INFO] Activator:179 - 
+
+
+2023-11-20 16:51:45,746 [INFO] Activator:180 - !SESSION log4j initialized
+2023-11-20 16:51:46,502 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-11-20 16:51:46,644 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-11-20 16:51:53,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.664811791 uses a null category that is invalid in its context. The option was ignored.
+2023-11-20 16:51:53,260 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.22297308 uses a null category that is invalid in its context. The option was ignored.
+2023-11-20 16:52:14,132 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-11-20 16:52:14,134 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-11-20 16:52:14,136 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-24 14:16:49,013 [INFO] Activator:179 - 
+
+
+2023-11-24 14:16:49,013 [INFO] Activator:180 - !SESSION log4j initialized
+2023-11-24 14:16:49,705 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-11-24 14:16:49,841 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.
+2023-11-24 14:17:17,865 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-11-24 14:17:17,865 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-11-24 14:17:17,873 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-24 14:21:41,385 [INFO] Activator:179 - 
+
+
+2023-11-24 14:21:41,385 [INFO] Activator:180 - !SESSION log4j initialized
+2023-11-24 14:22:07,210 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-11-24 14:22:07,210 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-11-24 14:22:07,210 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-11-24 14:22:08,245 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.602656957 uses a null category that is invalid in its context. The option was ignored.
+2023-11-24 14:22:08,464 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1039008319 uses a null category that is invalid in its context. The option was ignored.
+2023-11-24 16:21:19,335 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1464771550 uses a null category that is invalid in its context. The option was ignored.
+2023-11-24 16:21:19,348 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.528389068 uses a null category that is invalid in its context. The option was ignored.

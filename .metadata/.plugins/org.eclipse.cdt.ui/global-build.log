@@ -1,0 +1,204 @@
+23:55:57 **** Incremental Build of configuration Debug for project lab5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:49:60: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                            ^
+../Core/Src/main.c:49:60: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:49:62: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                              ^
+../Core/Src/main.c:49:62: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:49:64: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                                ^
+../Core/Src/main.c:49:64: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:49:66: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                                  ^
+../Core/Src/main.c:49:66: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:50:74: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                          ^
+../Core/Src/main.c:50:74: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c:50:76: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                            ^~
+../Core/Src/main.c:50:76: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c:50:79: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                               ^
+../Core/Src/main.c:50:79: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c:50:81: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                                 ^~
+../Core/Src/main.c:50:81: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c: In function 'disp_row':
+../Core/Src/main.c:81:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   81 |       HAL_SPI_Transmit(&hspi1, &data1, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:93:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   93 |       HAL_SPI_Transmit(&hspi1, &data2, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:106:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  106 |       HAL_SPI_Transmit(&hspi1, &data3, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:119:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |       HAL_SPI_Transmit(&hspi1, &data4, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:182:9: warning: unused variable 'pMyStr2' [-Wunused-variable]
+  182 |   char *pMyStr2 = "Lose";
+      |         ^~~~~~~
+../Core/Src/main.c:181:9: warning: unused variable 'pMyStr' [-Wunused-variable]
+  181 |   char *pMyStr = "You";  //Строка на вывод
+      |         ^~~~~~
+arm-none-eabi-gcc -o "lab5.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM PROJECT\NEW_LABA 5\lab5\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab5.elf
+ 
+arm-none-eabi-size   lab5.elf 
+arm-none-eabi-objdump -h -S  lab5.elf  > "lab5.list"
+   text	   data	    bss	    dec	    hex	filename
+  13864	     68	   2020	  15952	   3e50	lab5.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab5.list
+ 
+12:54:47 **** Incremental Build of configuration Debug for project lab5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:49:60: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                            ^
+../Core/Src/main.c:49:60: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:49:62: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                              ^
+../Core/Src/main.c:49:62: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:49:64: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                                ^
+../Core/Src/main.c:49:64: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:49:66: warning: excess elements in array initializer
+   49 |    uint8_t h_HEIGHT[16] = {5,2,7,8,4,3,7,5,2,7,4,8,7,3,4,3,2,5,2,7};
+      |                                                                  ^
+../Core/Src/main.c:49:66: note: (near initialization for 'h_HEIGHT')
+../Core/Src/main.c:50:74: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                          ^
+../Core/Src/main.c:50:74: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c:50:76: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                            ^~
+../Core/Src/main.c:50:76: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c:50:79: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                               ^
+../Core/Src/main.c:50:79: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c:50:81: warning: excess elements in array initializer
+   50 |    uint8_t l_HEIGHT[16] = {12,9,14,15,11,10,14,12,9,14,11,15,14,10,11,10,9,12,9,14};
+      |                                                                                 ^~
+../Core/Src/main.c:50:81: note: (near initialization for 'l_HEIGHT')
+../Core/Src/main.c: In function 'disp_row':
+../Core/Src/main.c:81:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   81 |       HAL_SPI_Transmit(&hspi1, &data1, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:93:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   93 |       HAL_SPI_Transmit(&hspi1, &data2, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:106:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  106 |       HAL_SPI_Transmit(&hspi1, &data3, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c:119:32: warning: passing argument 2 of 'HAL_SPI_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |       HAL_SPI_Transmit(&hspi1, &data4, 16, 10);
+      |                                ^~~~~~
+      |                                |
+      |                                uint8_t (*)[16] {aka unsigned char (*)[16]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:398,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:670:70: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[16]' {aka 'unsigned char (*)[16]'}
+  670 | HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                             ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:182:9: warning: unused variable 'pMyStr2' [-Wunused-variable]
+  182 |   char *pMyStr2 = "Lose";
+      |         ^~~~~~~
+../Core/Src/main.c:181:9: warning: unused variable 'pMyStr' [-Wunused-variable]
+  181 |   char *pMyStr = "You";  //Строка на вывод
+      |         ^~~~~~
+arm-none-eabi-gcc -o "lab5.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM PROJECT\NEW_LABA 5\lab5\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab5.elf
+ 
+arm-none-eabi-size   lab5.elf 
+arm-none-eabi-objdump -h -S  lab5.elf  > "lab5.list"
+   text	   data	    bss	    dec	    hex	filename
+  13864	     68	   2020	  15952	   3e50	lab5.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab5.list
+ 
