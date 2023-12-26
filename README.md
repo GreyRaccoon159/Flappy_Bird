@@ -165,3 +165,4 @@ SPI (Serial Peripheral Interface) - это стандарт передачи д�
 
 # Результат работы проекта
 
+![VID_20231124_164458](https://github.com/GreyRaccoon159/Flappy_Bird/assets/152299663/108bbb7a-4547-4f22-a8fd-97255a207575)
