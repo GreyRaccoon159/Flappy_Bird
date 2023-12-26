@@ -22,6 +22,12 @@ SPI (Serial Peripheral Interface) - это стандарт передачи д�
 
 ![image](https://github.com/GreyRaccoon159/Flappy_Bird/assets/152299663/3b039fbb-b2ba-4d67-b678-f7371cfc2476)
 
+| Порт  | Master                               | Slave                                |
+|-------|--------------------------------------|--------------------------------------|
+| MISO  | SOMI, SDI, RX                        | SOMI, SDO, TX                        |
+| MOSI  | SIMO, SDO, TX                        | SIMO, SDI, RX                        |
+| SCLK  | SCK, CLK, SPC (SPI serial port clock)|                                      |
+| SS    | nCS, CS, CSB, CSN, NSS, nSS, STE, SYN|                                      |
 
 Наименование пинов:
 - MOSI — выход от главного устройства, вход у подчиненного (Master Out Slave In). Передача данных от главного к подчиненному.
