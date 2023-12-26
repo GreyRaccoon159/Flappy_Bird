@@ -135,7 +135,11 @@ SPI (Serial Peripheral Interface) - это стандарт передачи д�
 
 ## Настрйока микроконтроллера и SPI
 
-![image](https://github.com/GreyRaccoon159/Flappy_Bird/assets/152299663/c3050fa9-a095-452a-84be-4c8720d666e4)
+![image](https://github.com/GreyRaccoon159/Flappy_Bird/assets/152299663/d06be028-1a1f-42a2-8a64-42d5a70f532b)
+
+![image](https://github.com/GreyRaccoon159/Flappy_Bird/assets/152299663/bd3988de-f01e-4f23-bd9b-8b36efac8df7)
+
+![image](https://github.com/GreyRaccoon159/Flappy_Bird/assets/152299663/0fbd444d-86db-4c7a-bdc6-65d1f0a0393d)
 
 ### Перечень используемых пинов
 
